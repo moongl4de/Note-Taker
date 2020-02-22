@@ -38,20 +38,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="/assets/js/index.js"></script>
 </body>
-
-<script>
-  $(".save-note").on("click", function(event){
-    event.preventDefault()
-    const noteData = {
-      title : $(".note-title").val().trim(),
-      content : $(".note-textarea").val().trim()
-    }
-
-    $.post("/api/notes", noteData)
-    .then(function(data){
-      console.log("writing note")
-    })
-  })
-</script>
-
 </html>
