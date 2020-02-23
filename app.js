@@ -35,7 +35,7 @@ app.post("/api/notes", (req, res) => {
       } else {
         res.json(db)
       }
-  })
+  });
 });
 
 app.delete("/api/notes/:id", (req, res) => {
