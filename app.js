@@ -55,7 +55,7 @@ app.delete("/api/notes/:id", (req, res) => {
 )})
 //Start the server on whatever port is assigned, either in the code or by Heroku
 app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
+    console.log("App listening on PORT " + PORT); 
 });
 
 
