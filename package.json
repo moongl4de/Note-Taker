@@ -4,7 +4,7 @@
   "description": "A simple note-taking app built with node.js and express",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.2",
     "path": "^0.12.7"
